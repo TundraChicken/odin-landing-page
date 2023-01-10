@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
+html {
+  display: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  padding: 8px;
+}
+.topbox {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  justify-content: space-between;
+}
+
+.headerlogo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+}
+
+.herobox {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  padding: 100px;
+  gap: 10px;
+}
+
+.frozenfish {
+  height: 600px;
+  width: 400px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+.infowrapper {
+  display: flex;
+
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.info {
+  max-width: 150px;
+  gap: 20px;
+}
+
+.title1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.body1 {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.cardbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quotewrapper {
+  display: flex;
+  background-color: #e5e7eb;
+  height: 200px;
+  font-weight: italic;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupwrapper {
+  display: flex;
+  background-color: #3882f6;
+  margin: 50px;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 1000px;
+  padding: 50px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.signupleft {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+}
